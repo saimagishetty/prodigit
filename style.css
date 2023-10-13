@@ -1,0 +1,269 @@
+body {
+    width: 100%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none !important;
+    /* Removes underline */
+    color: inherit !important;
+    /* Inherits color from parent element */
+}
+
+.main-center {
+    padding: 0px 100px !important;
+    max-width: 1500px;
+    margin: auto;
+}
+
+/* nav */
+nav {
+    max-width: 1500px;
+    margin: auto;
+    background: #FFFFFF;
+    position: sticky !important;
+    top: 0px;
+}
+
+nav div {
+    max-width: 1360px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    margin-right: 10px;
+    padding: 0px 5px;
+}
+
+li:hover {
+    border-bottom: 2px solid rgba(193, 82, 202, 1);
+}
+
+.icon-img {
+    padding: 0px 5px;
+}
+
+.btn-Genology {
+    width: 100px;
+    height: 34px;
+    background: #fff;
+}
+
+.btn-Login {
+    width: 100px;
+    height: 34px;
+    background: rgba(73, 0, 130, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* section1 */
+.section1 {
+    
+    height: 800px;
+    background: #000;
+
+    background-image: url('assets/section1.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.section3 {
+    
+    height: 800px;
+    background: rgba(73, 0, 130, 1);
+    background-image: url('assets/section3.png');
+    background-size: auto 100%;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.section5 {
+    
+    height: 800px;
+    background: #fff;
+    background-image: url('assets/section5.png');
+    background-size: auto 100%;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.section4 {
+    
+    height: 800px;
+    background: #000;
+
+    background-image: url('assets/section4.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.section1-child {
+    padding-top: 400px !important;
+    /* align-items: end; */
+
+}
+
+.section1-h1 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.section1-h2 {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn-arrow {
+    width: 64px;
+    height: 64px;
+    padding: 20px !important;
+    background: rgba(73, 0, 130, 1);
+}
+
+.btn-know {
+    width: 218px;
+    height: 75px;
+    background: rgba(73, 0, 130, 1);
+    color: #fff;
+}
+
+/* section2 */
+.section2 {
+    height: 850px;
+}
+
+.section2-h1 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(31, 31, 31, 1);
+}
+
+.section2-h2 {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+
+}
+
+.section2-h3 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.section5-h1 {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: right;
+
+}
+
+.section5-h2 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(31, 31, 31, 1);
+}
+
+.section6 {
+    
+    height: 860px;
+    background: #000;
+
+    background-image: url('assets/section6.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.section6-h1 {
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.Mathew {
+    color: #fff;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+
+}
+
+/* footer */
+footer {
+    max-width: 1300px;
+    margin: auto;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-items {
+    gap: 20px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(73, 0, 130, 1);
+}
+
+.footer-items1 {
+    gap: 20px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(117, 117, 117, 1);
+}
